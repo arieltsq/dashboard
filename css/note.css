@@ -1,0 +1,132 @@
+
+
+.hide {
+	display: none;
+}
+
+
+/******************************
+ *      C O N T R O L S       *
+ ******************************/
+#controls img {
+	width: 28px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0);
+}
+
+#controls img:hover, #controls img:focus {
+	-webkit-transform: scale(1.2);
+  	-moz-transform: scale(1.2);
+  	-o-transform: scale(1.2);
+  	position:relative;
+}
+
+/************************
+ *      N O T E S       *
+ ************************/
+.stickynote ul, li {
+	list-style: none;
+}
+
+.stickynote ul {
+	overflow: hidden;
+	padding: 15px;
+}
+
+.stickynote ul li {
+	margin: 15px;
+	float: left;
+	position: relative;
+}
+
+.stickynote ul li div {
+	text-decoration: none;
+	color: #000;
+	background: #ffc;
+	display: block;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	-moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+	-webkit-box-shadow: 5px 5px 7px  rgba(33, 33, 33, .7);
+	box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+	-moz-transition: -moz-transform .15s linear;
+	-o-transition: -o-transform .15s linear;
+	-webkit-transition: -webkit-transform .15s linear;
+
+}
+
+.stickynote ul li div img {
+	padding: 1px 3px;
+	margin: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.stickynote ul li textarea {
+	font-family: 'Neucha', cursive;
+	background: rgba(0, 0, 0, 0); /* transparent background */
+	resize: none;
+	padding: 3px;
+	border-style: none;
+}
+
+.note-title {
+	font-size: 140%;
+	font-weight: bold;
+	height: 30px;
+	width: 70%;
+}
+
+.note-content {
+	font-size:120%;
+	height: 100px;
+	width: 95%;
+}
+
+.stickynote ul li:nth-child(even) div {
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+
+.stickynote ul li:nth-child(3n) div {
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+
+.stickynote ul li:nth-child(5n) div {
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+.stickynote ul li div:hover, .stickynote ul li div:focus {
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+/* define 3 different colours for the notes */
+.stickynote ul li div.colour1 {
+	background: rgba(233, 246, 79, 0.71);
+}
+.stickynote ul li div.colour2 {
+	background: rgba(204, 255, 204, 0.74);
+}
+.stickynote ul li div.colour3 {
+	background: rgba(#ccebff, 0.69);
+}

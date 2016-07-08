@@ -1,0 +1,134 @@
+body{
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+
+}
+*{
+  font-family: 'Oswald', sans-serif;
+
+}
+/*blockquote {
+
+border: 0;
+/*margin: 1.5em 10px;
+padding: 0.5em 10px;*/
+/*quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+color: rgb(1, 11, 6);
+content: open-quote;
+font-size: 4em;
+line-height: 0.1em;
+margin-right: 0.25em;
+vertical-align: -0.4em;
+}*/
+
+
+.mb-style-5 {
+  width: 390px;
+}
+
+.mb-style-5 blockquote {
+  text-align: center;
+  background: rgba(#f7f0f0, 0.6);
+  width: 350px;
+  height: 350px;
+  padding: 60px;
+  border-radius: 50%;
+  box-shadow:
+  inset 0 0 0 3px #333,
+  inset 0 0 0 12px rgba(255,255,255,0.3),
+  80px 0 0 rgba(255,255,255,0.3),
+  -80px 0 0 rgba(255,255,255,0.3),
+  50px 0 0 rgba(60,185,145,0.07),
+  -50px 0 0 rgba(185,60,60,0.1);
+}
+
+
+.mb-style-5 blockquote p {
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 25px;
+  text-transform: uppercase;
+  /*text-shadow: 0 0 1px #fff, 0 1px 1px #000;*/
+  font-family: 'Neucha', cursive;
+}
+
+.mb-style-5 blockquote p span {
+  display: block;
+  position: relative;
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.mb-style-5 blockquote p span:before {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ddd;
+  content: "\275d";
+  font-size: 40px;
+  color: #333;
+  top: 0px;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  border-radius: 50%;
+}
+
+.mb-style-5 .mb-attribution {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+.mb-style-5 cite a:hover{
+  color: #000;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand, #dropdown-toggle  {
+  color: rgba(50, 48, 48, 1);
+}
+#custom-bootstrap-menu.navbar-default, #dropdown-toggle  {
+  font-size: #ffffffpx;
+  background-color: rgba(255, 255, 255, 0.73);
+  border-width: #e0be61px;
+  border-radius: #ffffffpx;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a, #dropdown-toggle {
+  color: rgba(50, 48, 48, 1);
+  background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus,
+#dropdown-toggle {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(46, 46, 43, 0.75);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus,
+#dropdown-toggle  {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus,
+#dropdown-toggle  {
+  background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar, #dropdown-toggle  {
+  background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar, #dropdown-toggle  {
+  background-color: #000000;
+}
