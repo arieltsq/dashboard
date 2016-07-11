@@ -12,22 +12,11 @@ html{
   font-family: 'Oswald', sans-serif;
 
 }
-/*blockquote {
 
-border: 0;
-/*margin: 1.5em 10px;
-padding: 0.5em 10px;*/
-/*quotes: "\201C""\201D""\2018""\2019";
+#time{
+  font-size: 2em;
+
 }
-blockquote:before {
-color: rgb(1, 11, 6);
-content: open-quote;
-font-size: 4em;
-line-height: 0.1em;
-margin-right: 0.25em;
-vertical-align: -0.4em;
-}*/
-
 
 .mb-style-5 {
   width: 390px;
