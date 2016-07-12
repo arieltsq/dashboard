@@ -24,7 +24,6 @@ $(document).ready(function () {
   })
 })
 
-// https://maps.googleapis.com/maps/api/timezone/json?location=1.290270,103.851959&timestamp=1331161200&key=AIzaSyCbqvOWog_gl3msL8Ob7wBL94ITSNx2qd8
 var today = new Date(new Date().getTime())
 var day = today.getDate()
 var month = today.getMonth()
